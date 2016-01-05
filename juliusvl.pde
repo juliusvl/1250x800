@@ -5,14 +5,14 @@ for (char c : "1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1b1m1
 {
   while (a>0) 
   {
-    pixels[b]=#000000;            //svart
-    if (c=='m')pixels[b]=#251E21; //mørk
-    if (c=='l')pixels[b]=#3F3634; //lys
-    if (c=='g')pixels[b]=#BBB3A1; //gul beige
-    if (c=='h')pixels[b]=#E1E2E0; //hvit
-    if (c=='r')pixels[b]=#A9101C; //rød
-    if (c=='u')pixels[b]=#1D2540; //mørt blå
-    if (c=='i')pixels[b]=#9AADC9; //lys blå
+    pixels[b]=#000000;            //black
+    if (c=='m')pixels[b]=#251E21; //dark gray
+    if (c=='l')pixels[b]=#3F3634; //light gray
+    if (c=='g')pixels[b]=#BBB3A1; //yellow beige
+    if (c=='h')pixels[b]=#E1E2E0; //white
+    if (c=='r')pixels[b]=#A9101C; //red
+    if (c=='u')pixels[b]=#1D2540; //dark blue
+    if (c=='i')pixels[b]=#9AADC9; //light blue
     b++;
     a--;
   }
